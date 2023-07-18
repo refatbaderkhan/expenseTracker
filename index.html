@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Expense Tracker</title>
+</head>
+
+<body>
+    <div class="expenseTracker">
+        <h1> Expenses Tracker</h1>
+        <div class="expenseInputBox">
+            <input id="expenseNameInput" type="text" placeholder="Add new expense .." required>
+            <input id="expenseAmountInput" type="number" placeholder="Add amount" required>
+            <button id="inputButton">Add</button>
+        </div>
+        <div class="expenseTable">
+            <table>
+                <thead>
+                    <tr>
+                    <th>Expense Name</th>
+                    <th>Expense Amount</th>
+                    <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>January</td>
+                        <td>$100</td>
+                        <td>___</td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>$80</td>
+                        <td>___</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                      <td>Sum</td>
+                      <td>$180</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+  
+    <script src="js/script.js"></script>
+</body>
+  
+</html>
