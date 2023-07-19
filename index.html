@@ -15,7 +15,7 @@
             <input id="expenseAmountInput" type="number" placeholder="Add amount" required>
             <button id="inputButton">Add</button>
         </div>
-        <div class="expenseTable">
+        <div id="expenseTable">
             <table>
                 <thead>
                     <tr>
@@ -25,21 +25,11 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>January</td>
-                        <td>$100</td>
-                        <td>___</td>
-                    </tr>
-                    <tr>
-                        <td>February</td>
-                        <td>$80</td>
-                        <td>___</td>
-                    </tr>
                 </tbody>
                 <tfoot>
                     <tr>
                       <td>Sum</td>
-                      <td>$180</td>
+                      <td id="sum"></td>
                     </tr>
                 </tfoot>
             </table>

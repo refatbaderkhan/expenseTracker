@@ -39,7 +39,7 @@ h1 {
 #expenseNameInput #expenseAmountInput {
 }
 
-.expenseTable table{
+#expenseTable table{
     margin: 15px;   
     width: 100%;
     table-layout: fixed;
